@@ -1,20 +1,42 @@
+//Write a Java Program to Search for a given word in a File. Also show use of Wrapper Class with an example. 
+
 import java.io.*;
 
 public class Practical_6_3 {
-    public static void main(String args[]) throws Exception {
+    public static void main(String[] args) throws Exception {
 
-        FileReader fr = new FileReader("file1.txt");
+        File f = new File("file1.txt");
+        FileReader fr = new FileReader(f);
         BufferedReader br = new BufferedReader(fr);
 
-        int i;
+        String words[] = null;
+        String s = "Yatharth";
+        String i;
 
-        while ((i = br.read()) != -1) {
+        boolean occur = false;
 
-            System.out.print((char) i);
+        while ((i = br.readLine()) != null) {
+
+            words = i.split(" ");
+
+            for (String word : words) {
+
+                if (word.equals(s)) {
+
+                    occur = true;
+                }
+            }
         }
-        br.close();
-        fr.close();
+        if (occur) {
 
-        System.out.println("\n\n20DCE019-Yatharth Chauhan");
+            System.out.println("The Given word is present in the file.");
+
+        } else {
+
+            System.out.println("The Given word is not present in the file.");
+
+        }
+        fr.close();
+        System.out.println("\n20DCE019-Yatharth Chauhan");
     }
 }
