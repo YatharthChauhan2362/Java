@@ -1,0 +1,18 @@
+// Multithreading in Java
+// This Program was created by Yatharth Chauhan
+
+// Multiprocessing and multithreading both are used to achive multitasking
+
+// In a nut shell.......
+// threds use shared memory area
+// threads = faster content switching
+// Athread is light-weight where a process is heavyweight
+
+// for example = Aword processor can have one thread running in foreground as an
+// editor and another in the background auto saving the document !
+
+// Creating a Threading 
+// There are two ways to create a thread in java 
+
+// By extending thread class 
+// By implementing Runnable interface 
