@@ -1,0 +1,31 @@
+Handling Specific Exceptions in Java
+This Program was created by Yatharth Chauhan
+
+Handling specific Exceptions
+In java, we can handle specific exceptions by typing multiple catch blocks.
+
+Syntax:
+
+try (
+
+    // code
+
+    )
+
+   Catch (To Exception e) - Handle all Exceptions of type IO Exception
+
+        // code
+
+        )
+
+   Catch (Exception e) - Handle all Exceptions of type Arithmetic Exception
+
+        // code
+
+         ) 
+
+   Catch (Exception e) - Handle all other Exceptions
+
+        // code
+
+        )
