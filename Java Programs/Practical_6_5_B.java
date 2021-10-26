@@ -5,7 +5,7 @@ import java.io.*;
 
 class Practical_6_5_B {
     public static void main(String args[]) throws Exception {
-        FileWriter writer = new FileWriter("file1.txt");
+        FileWriter writer = new FileWriter("File_6_5_B.txt");
         BufferedWriter buffer = new BufferedWriter(writer);
 
         buffer.write("I'm Yatharth Chauhan");

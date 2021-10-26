@@ -8,8 +8,8 @@ public class Practical_6_4 {
 
         try {
 
-            FileInputStream fis = new FileInputStream("file1.txt");
-            FileOutputStream fos = new FileOutputStream("file2.txt");
+            FileInputStream fis = new FileInputStream("File_6_4_i.txt");
+            FileOutputStream fos = new FileOutputStream("File_6_4_o.txt");
 
             int x;
 

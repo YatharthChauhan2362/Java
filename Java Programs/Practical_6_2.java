@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 class Practical_6_2 {
     public static void main(String args[]) {
         try {
-            FileInputStream fis = new FileInputStream("File.txt");
+            FileInputStream fis = new FileInputStream("File_6_2.txt");
             BufferedInputStream bis = new BufferedInputStream(fis);
 
             int i;

@@ -40,7 +40,7 @@ public class Practical_6_1 {
 
                 System.out.println("An error Occured While Finding " + args[x] + "file");
             }
-            System.out.println("20DCE019-Yatharth Chauhan\n");
+            // System.out.println("20DCE019-Yatharth Chauhan\n");
         }
 
     }

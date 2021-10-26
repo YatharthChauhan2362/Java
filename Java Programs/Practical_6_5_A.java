@@ -5,7 +5,7 @@ import java.io.*;
 
 class Practical_6_5_A {
     public static void main(String args[]) throws Exception {
-        FileReader fr = new FileReader("file1.txt");
+        FileReader fr = new FileReader("File_6_5_A.txt");
         BufferedReader br = new BufferedReader(fr);
 
         int i;
