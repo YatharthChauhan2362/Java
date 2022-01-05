@@ -1,0 +1,34 @@
+Calendar Class in Java
+This Program was created by Yatharth Chauhan
+
+The calendar class in java provides the methods that helps in converting date
+between a specific instant in time.
+It is an abstract class.
+Since it is an abstract class, we can not create an instance of this class
+with the help of a constructor.
+We use the static method Calender.getInstance() in order to implement a
+sub-class.
+
+
+Constructors of the Calendar class :
+
+1. Calendar(): This constructor is used to construct a calendar with the default
+time zone & locale.
+2. Calendar(Time zone, Locale locale): This constructor is used to construct a
+calendar with the specified time zone & locale.
+
+
+Methods of the Calendar class :
+
+1. get(int field) :
+This method returns the value of the specified calendar field.
+
+a2. dd(int field, int amount) :
+This method is useful for calculating the time after or before of a specified
+calendar field.
+
+3. getWeeksInWeekYear() :
+Returns the number of weeks.
+
+4. getMaximum(int field) :
+Returns the maximum value for the specified calendar field.
